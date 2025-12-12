@@ -10,6 +10,6 @@
 |         5|motoren |TB6612FNG Easy Motor Driver | nieuw | €5,79 | 1 | €5,79  |
 |         6|batterijhouder |CR123A batterijhouder | nieuw | €1,6 | 3 | €4,8  |
 |         7|batterij |CR123A batterij | nieuw | €1,5 | 3 | €4,5  |
-|         8|fuse |zekering | nieuw | €1,5 | 1 | €4,5  |
-|         9|connectors |connectors | nieuw | €1,5 | 2 | €4,5  |
+|         8|fuse |zekering | nieuw | € | 1 | €  |
+|         9|connectors |connectors | nieuw | € | 2 | €  |
 
