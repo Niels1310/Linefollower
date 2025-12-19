@@ -7,19 +7,19 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP32 DEVKIT V1
 
-motors: 
+motors: N20 DC 12V 1000tpm
 
-h-bridge:
+h-bridge: TB6612FNG
 
-sensors:
+sensors: QTR-8A
 
-batteries:
+batteries: 3 x CR123A
 
-wireless communication:
+wireless communication: wifi via Arduino Cloud
 
-distance sensor - motors:
+distance sensor - motors: 9 cm
 
 weight:
 
