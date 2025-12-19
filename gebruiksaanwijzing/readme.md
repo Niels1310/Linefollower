@@ -1,14 +1,21 @@
 # Gebruiksaanwijzing
 
 ### opladen / vervangen batterijen
-uitleg over het opladen of vervangen van de batterijen
+1. Zet de robot uit met de schuifschakelaar
+2. Doe de batterijen uit de batterij houder
+3. Steek nieuwe batterijen in de batterij houder
+4. Zet de motor aan met de schuifschakelaar
 
 ### draadloze communicatie
 #### verbinding maken
-uitleg over het verbinden van de robot met laptop / smartphone
+1. Zet de robot aan
+2. Zorg dat in je code de robot kan verbinden met de wifi door de SSID te weten van je robot en de inloggevens van de wifi.
+3. Zet je de robot aan en het blauwe lampje van de robot brandt dan is hij verbonden met het wifi netwerk.
+4. Als je de het dasboard van Arduino Cloud opent dan kan je de robot starten.
 
 #### commando's
 debug [on/off]  
+
 start  
 stop  
 set cycle [µs]  
