@@ -14,24 +14,34 @@
 4. Als je de het dasboard van Arduino Cloud opent dan kan je de robot starten.
 
 #### commando's
-debug [on/off]  
-
-start  
-stop  
-set cycle [µs]  
-set power [0..255]  
-set diff [0..1]  
-set kp [0..]  
-set ki [0..]  
-set kd [0..]  
-calibrate black  
-calibrate white  
+debug [on/off]: Typ in je seriele monitor 'debug' en dan zie je de sensorwaarden en cyclustijd.
+start: je zet de schakelaar op het dasboard van Arduino Cloud op aan of je typt in de seriele monitor 'run'.
+stop: je zet de schakelaar op het dasboard van Arduino Cloud op uit.
+set cycle [µs]: bepaalt de looptijd van één regelcyclus in microseconden.
+set power [0..255]: basisvermogen waarmee beide motoren draaien.
+set diff [0..1]: maximale snelheidsafwijking tussen linker en rechter motor.
+set kp [0..]: proportionele versterking voor de regelaar.
+set ki [0..]: integrale versterking.
+set kd [0..]: differentiële versterking.
+calibrate black: registreert min/max-waarden op zwarte lijn.
+calibrate white: registreert min/max-waarden op witte achtergrond.
 
 ### kalibratie
-uitleg kalibratie  
+1. Je zet de sensor op een zwart vlak en typt in de seriele monitor 'calibrate black', nu is zwart gekalibreerd.
+2. Je zet de sensor op een wit vlak en typt in de seriele monitor 'calibrate white', nu is wit gekalibreerd.
 
 ### settings
-De robot rijdt stabiel met volgende parameters:  
+De robot rijdt stabiel met volgende parameters: 
+set power 55
+set diff 0.1
+set kp 4.150
+set ki 0.00
+set kd 0.00
+set cycle 2000
 
 ### start/stop button
 uitleg locatie + werking start/stop button
+Als je via de Arduino Cloud de schuifschakelaar op 'on' zet dan gaat de robot beginnen.
+Zet je deze weer op 'off' dan stopt de robot.
+Je kan de robot ook doen starten in de seriele monitor 'run' in te typen.
+
