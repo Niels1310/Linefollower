@@ -2,6 +2,11 @@
 
 minimale hard- & software + stappenplan dat aantoont dat 2 motoren onafhankelijk van elkaar kunnen draaien, en (traploos) regelbaar zijn in snelheid en draairichting.
 
+    #include "SerialCommand.h"
+    #include "EEPROMAnything.h"
+        
+        #define SerialPort Serial
+    #define Baudrate 115200
     #define MotorLeftForward 18
     #define MotorLeftBackward 19
     #define MotorRightForward 21
@@ -9,7 +14,7 @@ minimale hard- & software + stappenplan dat aantoont dat 2 motoren onafhankelijk
     #define PWMA 17
     #define PWMB 23
     #define ledSensor 12
-    
+        
     struct param_t
     {
       unsigned long cycleTime;
